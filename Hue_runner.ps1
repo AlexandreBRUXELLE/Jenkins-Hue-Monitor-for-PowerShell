@@ -1,25 +1,32 @@
 param(
- [Alias("ju")]
- $UserID,
+  [Alias("ju")]
+ $UserID = "jheller",
  [Alias("jp")]
- $Password,
+ $Password = "91259af9f6acf7cee85aea34d3084e94",
  [Alias("j")]
- $JenkinsUrl, 
+ $JenkinsUrl = "https://jenkins.spendbridge.co/view/CI%20Hue/api/json", 
  [Alias("l")]
- $LightsUrl,
+ $LightsUrl = "http://huebridge/api/163d96d621f20b87680533a1b6f649b/lights/2/state",
  [Alias("f")]
+ [int]
  $Failed = 0,
  [Alias("w")]
+ [int]
  $FailedBuilding = 12750,
  [Alias("b")]
+ [int]
  $Building = 46920,
  [Alias("p")]
+ [int]
  $Passed = 25717,
  [alias("u")]
+ [int]
  $Unstable = 6000,
  [Alias("r")]
- $Brightness = 255,
+ [int]
+ $Brightness = 10,
  [Alias("s")]
+ [int]
  $Saturation = 255
 )
 
