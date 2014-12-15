@@ -1,12 +1,12 @@
 param(
   [Alias("ju")]
- $UserID = "jheller",
+ $UserID,
  [Alias("jp")]
- $Password = "91259af9f6acf7cee85aea34d3084e94",
+ $Passwor ,
  [Alias("j")]
- $JenkinsUrl = "https://jenkins.spendbridge.co/view/CI%20Hue/api/json", 
+ $JenkinsUrl, 
  [Alias("l")]
- $LightsUrl = "http://huebridge/api/163d96d621f20b87680533a1b6f649b/lights/2/state",
+ $LightsUrl ,
  [Alias("f")]
  [int]
  $Failed = 0,
